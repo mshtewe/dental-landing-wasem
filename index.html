@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>מרפאת שיניים ד״ר נועה אלון</title>
+<title>מרפאת שיניים ד״ר וסים סבאח</title>
 <meta name="description" content="מרפאת שיניים בתל אביב: השתלות, יישור שקוף, הלבנה וטיפולי שורש. השאירו פרטים ונחזור אליכם עוד היום.">
-<meta property="og:title" content="מרפאת שיניים ד״ר נועה אלון | תל אביב">
+<meta property="og:title" content="מרפאת שיניים ד״ר וסים סבאח | תל אביב">
 <meta property="og:description" content="בדיקה ראשונה וייעוץ אישי. השאירו פרטים ונחזור אליכם עוד היום.">
 <meta property="og:type" content="website">
 
@@ -21,9 +21,9 @@ window.SITE_CONFIG = {
   GOOGLE_ADS_LEAD_LABEL: "",    // תווית המרה של ליד, לדוגמה "AbCdEfGhIj"
   GOOGLE_ADS_CALL_LABEL: "",    // תווית המרה לקליק על טלפון (לא חובה)
   FORM_ENDPOINT: "",            // כתובת Webhook (Make / Zapier / Formspree / Google Apps Script)
-  PHONE: "03-555-1234",
-  WHATSAPP: "972500000000",     // בפורמט בינלאומי בלי + ובלי 0 מוביל
-  WHATSAPP_TEXT: "היי, הגעתי מהאתר ואשמח לקבוע בדיקה"
+  PHONE: "054-327-6223",
+  WHATSAPP: "972543276223",     // בפורמט בינלאומי בלי + ובלי 0 מוביל
+  WHATSAPP_TEXT: "היי ד״ר וסים, הגעתי מהאתר ואשמח לקבוע תור לבדיקה"
 };
 </script>
 
@@ -173,6 +173,10 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
 .demo{font-size:13px;opacity:.75}
 
 /* mobile sticky bar */
+.topbtns{display:flex;gap:8px}
+.wa-float{position:fixed;bottom:24px;left:24px;z-index:25;width:62px;height:62px;border-radius:50%;background:#1fa855;display:grid;place-items:center;box-shadow:0 10px 24px -8px rgba(0,0,0,.45);transition:transform .15s}
+.wa-float:hover{transform:scale(1.07)}
+.wa-float:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .mbar{display:none;position:fixed;inset-inline:0;bottom:0;z-index:30;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--bg);border-top:1px solid var(--line)}
 .mbar .btn{flex:1;min-height:48px;padding:0 10px;font-size:16px}
 
@@ -181,6 +185,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
   .hero .wrap,.why .wrap{grid-template-columns:minmax(0,1fr)}
   .hero-art svg.tooth{max-height:200px}
   .top .btn{display:none}
+  .wa-float{display:none}
   .mbar{display:flex}
 }
 @media (max-width:480px){.grid{grid-template-columns:minmax(0,1fr)}}
@@ -198,9 +203,9 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
   <div class="wrap">
     <a class="logo" href="#">
       <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="32" fill="#0b4f6c"/><path d="M20 22c3-5 9-4 12-2 3-2 9-3 12 2 3 5 0 11-1 16-1 6-2 12-5 12s-3-8-6-8-3 8-6 8-4-6-5-12c-1-5-4-11-1-16z" fill="#fff"/></svg>
-      <span>ד״ר נועה אלון<small>מרפאת שיניים · תל אביב</small></span>
+      <span>ד״ר וסים סבאח<small>מרפאת שיניים · תל אביב</small></span>
     </a>
-    <a class="btn btn-cta js-call" href="#">התקשרו עכשיו</a>
+    <div class="topbtns"><a class="btn btn-wa js-wa" href="#"><svg width="20" height="20" viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.6-.3z"/></svg>וואטסאפ</a><a class="btn btn-cta js-call" href="#">התקשרו</a></div>
   </div>
 </header>
 
@@ -212,7 +217,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
       <h1>חיוך בריא ויפה, בלי כאב ובלי לחכות חודשים לתור</h1>
       <p class="lead">מרפאה פרטית במרכז תל אביב עם ציוד דיגיטלי מתקדם. השאירו פרטים ונחזור אליכם עוד היום לתיאום בדיקה.</p>
       <ul class="checks">
-        <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#ff6b5b"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>תורים גם בערב ובשישי בבוקר</li>
+        <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#ff6b5b"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>תורים זמינים כל השבוע, כל יום 09:00–19:00</li>
         <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#ff6b5b"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>תוכנית טיפול והצעת מחיר שקופה כבר בביקור הראשון</li>
         <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#ff6b5b"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>אפשרות לפריסת תשלומים נוחה</li>
       </ul>
@@ -258,7 +263,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
           <svg width="56" height="56" viewBox="0 0 24 24" style="justify-self:center" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#1fa855"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
           <h3>תודה, קיבלנו!</h3>
           <p>נחזור אליכם בהקדם. רוצים לדבר כבר עכשיו?</p>
-          <a class="btn btn-wa js-wa" href="#">כתבו לנו בוואטסאפ</a>
+          <a class="btn btn-wa js-wa" href="#"><svg width="20" height="20" viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.6-.3z"/></svg>כתבו לנו בוואטסאפ</a>
         </div>
       </div>
     </div>
@@ -267,10 +272,10 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
 
 <section class="strip" aria-label="נתונים על המרפאה">
   <div class="wrap">
-    <div><b>15+</b><span>שנות ניסיון</span></div>
-    <div><b>עד 48 שעות</b><span>לתור ראשון</span></div>
-    <div><b>ערב ושישי</b><span>שעות פעילות מורחבות</span></div>
-    <div><b>חניה</b><span>בבניין המרפאה</span></div>
+    <div><b>כל השבוע</b><span>זמינות לתורים</span></div>
+    <div><b>09:00–19:00</b><span>כל יום</span></div>
+    <div><b>יש חניה</b><span>ליד המרפאה</span></div>
+    <div><b>וואטסאפ</b><span>מענה מהיר ישירות מהרופא</span></div>
   </div>
 </section>
 
@@ -278,7 +283,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
   <div class="wrap">
     <div class="head">
       <h2>הטיפולים שלנו</h2>
-      <p>כל הטיפולים במקום אחד, עם רופאה אחת שמכירה אתכם ואת ההיסטוריה שלכם.</p>
+      <p>כל הטיפולים במקום אחד, עם רופא אחד שמכיר אתכם ואת ההיסטוריה שלכם.</p>
     </div>
     <div class="grid" id="tGrid"></div>
   </div>
@@ -310,7 +315,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
     <h2>מוכנים לחייך בביטחון?</h2>
     <p>בדיקה ראשונה, צילום פנורמי ותוכנית טיפול מסודרת. בלי התחייבות.</p>
     <div class="row">
-      <a class="btn btn-cta" href="#lead">לקביעת בדיקה</a>
+      <a class="btn btn-wa js-wa" href="#"><svg width="20" height="20" viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.6-.3z"/></svg>קביעת תור בוואטסאפ</a>
       <a class="btn btn-ghost js-call" href="#">התקשרו</a>
     </div>
   </div>
@@ -319,16 +324,18 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
 
 <footer>
   <div class="wrap">
-    <div><b>מרפאת שיניים ד״ר נועה אלון</b><br>רחוב הדוגמה 10, תל אביב · <span class="js-phone-txt"></span></div>
-    <div>א׳–ה׳ 08:00–20:00 · ו׳ 08:00–13:00</div>
-    <div class="demo">דף דמו להצגה – שם המרפאה, הנתונים והפרטים לדוגמה בלבד</div>
+    <div><b>מרפאת שיניים ד״ר וסים סבאח</b><br>רחוב הדוגמה 10, תל אביב · <span class="js-phone-txt"></span></div>
+    <div>כל יום 09:00–19:00</div>
+    <div class="demo">דף דמו – הכתובת וחלק מהתכנים לדוגמה, לעדכון לפני עלייה לאוויר</div>
   </div>
 </footer>
 
 <div class="mbar">
   <a class="btn btn-cta js-call" href="#">התקשרו</a>
-  <a class="btn btn-wa js-wa" href="#">וואטסאפ</a>
+  <a class="btn btn-wa js-wa" href="#"><svg width="20" height="20" viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.6-.3z"/></svg>וואטסאפ</a>
 </div>
+
+<a class="wa-float js-wa" href="#" aria-label="שלחו הודעת וואטסאפ"><svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.6-.3z"/></svg></a>
 
 <script>
 {
